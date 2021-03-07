@@ -11,7 +11,6 @@ serve = "python -m whois"
 pytest = "*"
 freezegun = "*"
 "flake8" = "*"
-black = "*"
 
 [packages]
 gunicorn = "==19.7.1"
@@ -22,6 +21,11 @@ peewee = "*"
 flask-cors = "*"
 Jinja2 = ">=2.10.1"
 pika = "*"
+authlib = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
