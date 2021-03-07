@@ -22,6 +22,7 @@ flask-cors = "*"
 Jinja2 = ">=2.10.1"
 pika = "*"
 authlib = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
